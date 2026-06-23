@@ -7,36 +7,39 @@
       "name": "Nargath"
     }
   ],
-  "version": "1.1.0",
+  "version": "1.2.2",
   "compatibility": {
     "minimum": "13",
     "verified": "13"
   },
   "url": "https://github.com/AlexanderK95/fvtt-crit-hits-and-fumbles-pf1",
-  "download": "https://github.com/AlexanderK95/fvtt-crit-hits-and-fumbles-pf1/releases/download/1.1.0/1.1.0.zip",
+  "download": "https://github.com/AlexanderK95/fvtt-crit-hits-and-fumbles-pf1/releases/download/1.2.2/1.2.2.zip",
   "manifest": "https://raw.githubusercontent.com/AlexanderK95/fvtt-crit-hits-and-fumbles-pf1/main/module.json",
   "system": [
     "pf1"
+  ],
+  "esmodules": [
+    "scripts/auto-roll.js"
   ],
   "packs": [
     {
       "name": "crithits",
       "label": "Critical Hits - PF1",
-      "path": "packs/crithits.db",
+      "path": "packs/crithits",
       "type": "Item",
       "system": "pf1"
     },
     {
       "name": "critfumbles",
       "label": "Critical Fumbles - PF1",
-      "path": "packs/critfumbles.db",
+      "path": "packs/critfumbles",
       "type": "Item",
       "system": "pf1"
     },
     {
       "name": "critrolls",
       "label": "Critical Rolltables - PF1",
-      "path": "packs/critrolls.db",
+      "path": "packs/critrolls",
       "type": "RollTable"
     }
   ]

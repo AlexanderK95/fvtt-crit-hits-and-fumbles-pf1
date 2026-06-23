@@ -3,6 +3,10 @@ A Foundry VTT module for Pathfinder 1's Critical Hit and Fumble Deck
 
 Compatible with Foundry VTT version 13 and the Pathfinder 1 system.
 
+When enabled, the module can automatically roll a critical hit table after PF1 reports a confirmed critical hit, or a fumble table when an attack roll produces a natural 1. Critical threats do not roll the critical hit table until confirmed.
+
+The included compendium packs use Foundry VTT's version 13 pack paths and migrate from the bundled legacy pack data on first launch.
+
 This is not listed on the Foundry VTT module listing.
 To install this, paste this manifest URL into the 'Manifest URL field in Install Modules of the core Foundry program.
 
@@ -10,7 +14,7 @@ https://raw.githubusercontent.com/AlexanderK95/fvtt-crit-hits-and-fumbles-pf1/ma
 
 ![Where To Install](/images/WhereToInstall.png)
 
-This does not trigger automatically on a natural 20 or 1 of a d20 roll. Its purely tables that you manually roll on when that event occurs.
+Automatic rolls can be enabled in the module settings. You can still open and roll the tables manually.
 
 These rolltables are found in the 'Critical Rolltables - PF1' Compendium of the Compendium section.
 
